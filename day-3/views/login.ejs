@@ -1,0 +1,29 @@
+<%-include("layout/header")%>
+<main>
+  <h1>login page</h1>
+  <form action="/login" method="post">
+    <div>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        required
+        placeholder="Enter Your Username"
+      />
+    </div>
+    <br />
+    <div>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+        placeholder="Enter Your Password"
+      />
+    </div>
+    <br />
+
+    <button type="submit">Login</button>
+  </form>
+</main>
+<%-include("layout/footer")%>
